@@ -1,11 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.aerohide.offlinelan.mixin",
+  "package": "com.aerohide.offlinelan.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
   "client": [
+    "IntegratedServerMixin",
+    "OpenToLanScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
