@@ -14,9 +14,10 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(IntegratedServer.class)
 public class IntegratedServerMixin {
 
-    @Inject(method = "openToLan", at = @At("HEAD"))
+    @Inject(method = "openToLan", at = @At("TAIL"))
     private void onOpenToLan(CallbackInfoReturnable<Boolean> cir) {
         ((IntegratedServer)(Object)this).setOnlineMode(Offlinelan.onlineMode);
+        Offlinelan.LOG.info(((IntegratedServer)(Object)this).isOnlineMode());
     }
 
 }

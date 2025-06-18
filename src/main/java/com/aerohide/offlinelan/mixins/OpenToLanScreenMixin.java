@@ -8,7 +8,9 @@ import net.minecraft.client.gui.Selectable;
 import net.minecraft.client.gui.screen.OpenToLanScreen;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.CyclingButtonWidget;
+import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Mutable;
@@ -26,6 +28,7 @@ public abstract class OpenToLanScreenMixin extends Screen {
     @Inject(method = "init", at = @At("TAIL"))
     private void addOfflineModeToggle(CallbackInfo ci) {
         Offlinelan.onlineMode = true;
+        /*
         this.addDrawableChild(
                 CyclingButtonWidget.onOffBuilder(Offlinelan.onlineMode)
                         .build(
@@ -34,6 +37,20 @@ public abstract class OpenToLanScreenMixin extends Screen {
                                 150,
                                 20,
                                 Text.translatable("offlinelan.toggleText"),
+                                (button, value) -> Offlinelan.onlineMode = value
+                        )
+        );
+        /*
+         */
+
+        this.addDrawableChild(
+                CyclingButtonWidget.onOffBuilder(Offlinelan.onlineMode)
+                        .build(
+                                this.width / 2 + 5,
+                                130,
+                                150,
+                                20,
+                                new LiteralText("Online Mode"),
                                 (button, value) -> Offlinelan.onlineMode = value
                         )
         );
