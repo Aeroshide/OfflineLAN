@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import net.fabricmc.api.ModInitializer;
 
 public class Offlinelan implements ModInitializer {
-    public static boolean onlineMode = true;
+    public static OnlineModeBoolean onlineModeOption = new OnlineModeBoolean(true);
     public static final Logger LOG = LogManager.getLogger("OfflineLAN");
     @Override
     public void onInitialize() {

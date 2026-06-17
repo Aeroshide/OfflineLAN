@@ -1,0 +1,4 @@
+{
+  "offlinelan.toggleText": "Online Mode",
+  "offlinelan.chatMessage": "Online mode is OFF! The server will make no attempt to authenticate usernames. Beware."
+}
