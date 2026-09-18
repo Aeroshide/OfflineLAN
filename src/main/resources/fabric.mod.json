@@ -1,24 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "offlinelan",
+  "id": "${id}",
   "version": "${version}",
-  "name": "OfflineLAN",
+  "name": "${name}",
   "description": "A mod that adds a toggle in the \"Open To Lan\" menu to disable online-mode on the integrated server",
-  "authors": ["Aeroshide"],
+  "authors": [
+    "Aeroshide"
+  ],
   "contact": {},
   "license": "GPL-3.0",
-  "icon": "assets/offlinelan/icon.png",
-  "environment": "*",
+  "icon": "assets/${id}/icon.png",
+  "environment": "client",
   "entrypoints": {
     "main": [
-      "com.aerohide.offlinelan.Offlinelan"
+      "com.aeroshide.offlinelan.OfflineLAN"
     ]
   },
   "mixins": [
     "offlinelan.mixins.json"
   ],
+  "accessWidener": "offlinelan.ct",
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "minecraft": ">=${minecraft_version}"
+    "fabricloader": ">=0.15.0",
+    "minecraft": "${minecraft}"
   }
 }
