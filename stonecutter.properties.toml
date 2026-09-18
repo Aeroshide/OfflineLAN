@@ -1,0 +1,488 @@
+# See https://stonecutter.kikugie.dev/wiki/config/properties#structured-properties
+mod.id = "offlinelan"
+mod.name = "OfflineLAN"
+mod.group = "com.aeroshide"
+mod.version = "2.0.0"
+
+deps.fabric_loader = "0.19.5"
+loomx.loom_version = "1.18.1"
+
+["26.3"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "26.3"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["26.3"]
+
+# Per-version dependencies
+deps.fabric_api = "0.160.5+26.3"
+
+["26.2"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "26.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["26.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.160.0+26.2"
+
+["26.1.2"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=26.1 <=26.1.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["26.1", "26.1.1", "26.1.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.155.3+26.1.2"
+
+["26.1.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=26.1 <=26.1.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["26.1", "26.1.1", "26.1.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.155.3+26.1.2"
+
+["26.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=26.1 <=26.1.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["26.1", "26.1.1", "26.1.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.155.3+26.1.2"
+
+["1.21.11"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.21 <=1.21.11"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21", "1.21.1", "1.21.2", "1.21.3", "1.21.4", "1.21.5", "1.21.6", "1.21.7", "1.21.8", "1.21.9", "1.21.10", "1.21.11"]
+
+# Per-version dependencies
+deps.fabric_api = "0.141.6+1.21.11"
+
+["1.21.10"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.10"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.10"]
+
+# Per-version dependencies
+deps.fabric_api = "0.138.4+1.21.10"
+
+["1.21.9"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.9"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.9"]
+
+# Per-version dependencies
+deps.fabric_api = "0.134.1+1.21.9"
+
+["1.21.8"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.8"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.8"]
+
+# Per-version dependencies
+deps.fabric_api = "0.136.1+1.21.8"
+
+["1.21.7"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.7"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.7"]
+
+# Per-version dependencies
+deps.fabric_api = "0.129.0+1.21.7"
+
+["1.21.6"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.6"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.6"]
+
+# Per-version dependencies
+deps.fabric_api = "0.128.2+1.21.6"
+
+["1.21.4"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.4"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.4"]
+
+# Per-version dependencies
+deps.fabric_api = "0.119.4+1.21.4"
+
+["1.21.3"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.3"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.3"]
+
+# Per-version dependencies
+deps.fabric_api = "0.114.1+1.21.3"
+
+["1.21.2"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.106.1+1.21.2"
+
+["1.21.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.116.17+1.21.1"
+
+["1.21"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21"]
+
+# Per-version dependencies
+deps.fabric_api = "0.102.0+1.21"
+
+["1.20.6"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.20.5 <=1.20.6"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.20.5", "1.20.6"]
+
+# Per-version dependencies
+deps.fabric_api = "0.100.8+1.20.6"
+
+["1.21.5"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.21.5"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.21.5"]
+
+# Per-version dependencies
+deps.fabric_api = "0.128.2+1.21.5"
+
+["1.20.5"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.20.5"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.20.5"]
+
+# Per-version dependencies
+deps.fabric_api = "0.97.8+1.20.5"
+
+["1.20.3"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.20.3"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.20.3"]
+
+# Per-version dependencies
+deps.fabric_api = "0.91.1+1.20.3"
+
+["1.20.2"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.20.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.20.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.91.6+1.20.2"
+
+["1.20.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.20.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.20.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.92.12+1.20.1"
+
+["1.19.4"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.19 <=1.21.11"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.19", "1.19.1", "1.19.2", "1.19.3", "1.19.4", "1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4", "1.20.5", "1.20.6", "1.21", "1.21.1", "1.21.2", "1.21.3", "1.21.4", "1.21.5", "1.21.6", "1.21.7", "1.21.8", "1.21.9", "1.21.10", "1.21.11"]
+
+# Per-version dependencies
+deps.fabric_api = "0.87.2+1.19.4"
+
+["1.19.3"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.19.3"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.19.3"]
+
+# Per-version dependencies
+deps.fabric_api = "0.76.1+1.19.3"
+
+["1.19.2"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.19.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.19.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.77.0+1.19.2"
+
+["1.20"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.20"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.20"]
+
+# Per-version dependencies
+deps.fabric_api = "0.83.0+1.20"
+
+["1.18.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.18.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.18.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.46.6+1.18"
+
+["1.18"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.18 <=1.18.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.18", "1.18.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.44.0+1.18"
+
+["1.17.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.17 <=1.17.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.17", "1.17.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.46.1+1.17"
+
+["1.17"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.17"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.17"]
+
+# Per-version dependencies
+deps.fabric_api = "0.36.0+1.17"
+
+["1.16.5"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.16 <=1.16.5"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.16", "1.16.1", "1.16.2", "1.16.3", "1.16.4", "1.16.5"]
+
+# Per-version dependencies
+deps.fabric_api = "0.42.0+1.16"
+
+["1.16.4"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.16.4"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.16.4"]
+
+# Per-version dependencies
+deps.fabric_api = "0.29.3+1.16"
+
+["1.16.3"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.16.3"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.16.3"]
+
+# Per-version dependencies
+deps.fabric_api = "0.25.0+build.415-1.16"
+
+["1.16.2"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.16.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.16.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.20.1+build.401-1.16"
+
+["1.18.2"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.18 <=1.18.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.18", "1.18.1", "1.18.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.77.0+1.18.2"
+
+["1.16.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.16.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.16.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.18.0+build.387-1.16.1"
+
+["1.16"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.16 <=1.16.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.16", "1.16.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.13.1+build.370-1.16"
+
+["1.15.2"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.15 <=1.15.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.15", "1.15.1", "1.15.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.28.5+1.15"
+
+["1.15.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.15.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.15.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.4.27+build.286-1.15"
+
+["1.15"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.15"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.15"]
+
+# Per-version dependencies
+deps.fabric_api = "0.4.24+build.279-1.15"
+
+["1.14.4"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.14 <=1.15.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.14", "1.14.1", "1.14.2", "1.14.3", "1.14.4", "1.15", "1.15.1", "1.15.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.28.5+1.14"
+
+["1.14.3"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.14.3"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.14.3"]
+
+# Per-version dependencies
+deps.fabric_api = "0.3.0+build.198"
+
+["1.14.2"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.14.2"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.14.2"]
+
+# Per-version dependencies
+deps.fabric_api = "0.3.0+build.185"
+
+["1.20.4"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.20 <=1.20.4"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4"]
+
+# Per-version dependencies
+deps.fabric_api = "0.97.3+1.20.4"
+
+["1.19.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.19.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.19.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.58.5+1.19.1"
+
+["1.19"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.19"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.19"]
+
+# Per-version dependencies
+deps.fabric_api = "0.58.0+1.19"
+
+["1.14.1"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.14.1"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.14.1"]
+
+# Per-version dependencies
+deps.fabric_api = "0.3.0-pre+build.157a"
+
+["1.14"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = "1.14"
+
+# List of releases to be marked compatible on Modrinth/Curseforge
+mod.mc_releases = ["1.14"]
+
+# Per-version dependencies
+deps.fabric_api = "0.2.7+build.127"
